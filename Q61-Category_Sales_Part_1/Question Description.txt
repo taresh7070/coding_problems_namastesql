@@ -1,0 +1,15 @@
+Write an SQL query to retrieve the total sales amount for each product category in the month of February 2022, only including sales made on weekdays (Monday to Friday). Display the output in ascending order of total sales.
+
+ 
+
+
+Tables: sales
++-------------+-------------+
+| COLUMN_NAME | DATA_TYPE   |
++-------------+-------------+
+| id          | int         |
+| product_id  | int         |
+| category    | varchar(12) |
+| amount      | int         |
+| order_date  | date        |
++-------------+-------------+
